@@ -1,0 +1,161 @@
+#head{
+    width: auto;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #000;
+}
+
+#logo{
+	width: 240px;
+    height: 60px;
+    margin-left: 80px;
+}
+
+#go-autoColor {
+    cursor: pointer;
+}
+
+.share-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    height: 500px;
+    margin: 10px 25px;
+}
+
+.card-img-top{
+    width:60%;
+    height: 100%;
+}
+
+.card-img-wrapper {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-actions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fafafa;
+    border-top: 1px solid #e8e8e8;
+    zoom: 1;
+}
+
+.card-actions > li:not(:last-child) {
+    border-right: 1px solid #e8e8e8;
+}
+
+.card-actions > li {
+    float: left;
+    margin: 12px 0;
+    color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+}
+
+.card-actions > li i {
+    cursor: pointer;
+}
+
+.card-img-color {
+    width: 100%;
+}
+
+.card-meta {
+    padding: 24px 0;
+    margin: -4px 0;
+    zoom: 1;
+}
+
+.card-meta-avatar {
+    /* float: left; */
+    padding-right: 16px;
+    display: inline-block;
+}
+
+.avatar-image {
+    background: transparent;
+}
+
+.avatar {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+.avatar > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-wrapper {
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+}
+
+.logo-icon {
+    width: 280px;
+    margin-top: -32px;
+    margin-left: -45px;
+    overflow: hidden;
+}
+
+.logo-title {
+    width: 200px;
+    position: absolute;
+    top: -135px;
+    left: 140px;
+}
+
+.logo-zhName {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 18px;
+    left: 330px;
+}
+
+.change-page {
+    display: flex;
+    margin-left: 5%;
+}
+
+.change-page a {
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.change-page a.active {
+    border-bottom: 2px solid white;
+}
+
+.avatar-name {
+    display: inline-block;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "本项目只使用了html,原生js和jquery库,index.html打开即为本项目的前端界面.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ti-tanium/AutoColor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ti-tanium/AutoColor/issues"
+  },
+  "homepage": "https://github.com/Ti-tanium/AutoColor#readme",
+  "dependencies": {
+    "fstorm": "^0.1.3",
+    "rasterizehtml": "^1.3.0"
+  }
+}
