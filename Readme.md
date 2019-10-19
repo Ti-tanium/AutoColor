@@ -7,7 +7,7 @@ AutoColor Web Application:
 
 # Feature
 ## Palette Generation
-Generate 5-color palette according to theme color with a GAN model. You can specify one or more colors, and the modle will generate the rest. The generated color scheme is enhanced in terms of saturation to make it more presentable.
+Generate 5-color palette according to theme color with [PaletteGAN, a model based on WGAN-gp](https://github.com/e-yi/autoColor_model). You can specify one or more colors, and the modle will generate the rest. The generated color scheme is enhanced in terms of saturation to make it more presentable.
 Below are some results from the model.
 
 ![Results from GAN models, few palettes](./images/palettes.png)
